@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61645952880231E0081BF6E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61645942880231E0081BF6E /* Theme.swift */; };
 		F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */; };
 		F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E2480287D79EC00C561C2 /* MeetingView.swift */; };
 		F64E2483287D79EE00C561C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64E2482287D79EE00C561C2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61645942880231E0081BF6E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F64E247B287D79EC00C561C2 /* iOS-App-Dev-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App-Dev-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_Dev_TutorialsApp.swift; sourceTree = "<group>"; };
 		F64E2480287D79EC00C561C2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6164593288022550081BF6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F61645942880231E0081BF6E /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F64E2472287D79EC00C561C2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		F64E247D287D79EC00C561C2 /* iOS-App-Dev-Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				F6164593288022550081BF6E /* Models */,
 				F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */,
 				F64E2480287D79EC00C561C2 /* MeetingView.swift */,
 				F64E2482287D79EE00C561C2 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61645952880231E0081BF6E /* Theme.swift in Sources */,
 				F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */,
 				F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */,
 			);
