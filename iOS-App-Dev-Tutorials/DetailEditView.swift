@@ -1,0 +1,33 @@
+//
+//  DetailEditView.swift
+//  iOS-App-Dev-Tutorials
+//
+//  Created by 최승용 on 2022/07/22.
+//
+
+import SwiftUI
+
+struct DetailEditView: View {
+    @State private var data = DailyScrum.Data()
+    
+    var body: some View {
+        Form {
+            Section(header: Text("Meeting Info")) {
+                TextField("Title", text: $data.title)
+                HStack {
+                    Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
+                        Text("Length")
+                    }
+                    Spacer()
+                    Text("\(Int(data.lengthInMinutes)) minutes")
+                }
+            }
+        }
+    }
+}
+
+struct DetailEditView_Previews: PreviewProvider {
+    static var previews: some View {
+        DetailEditView()
+    }
+}

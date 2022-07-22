@@ -17,6 +17,7 @@
 		F6FED2B42882893400E6EE3B /* TarilingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED2B32882893400E6EE3B /* TarilingIconLabelStyle.swift */; };
 		F6FED2B62885431500E6EE3B /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED2B52885431500E6EE3B /* ScrumsView.swift */; };
 		F6FED2B82886E96C00E6EE3B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED2B72886E96C00E6EE3B /* DetailView.swift */; };
+		F6FED2BA288AB39900E6EE3B /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED2B9288AB39900E6EE3B /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F6FED2B32882893400E6EE3B /* TarilingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarilingIconLabelStyle.swift; sourceTree = "<group>"; };
 		F6FED2B52885431500E6EE3B /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		F6FED2B72886E96C00E6EE3B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F6FED2B9288AB39900E6EE3B /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				F6FED2B32882893400E6EE3B /* TarilingIconLabelStyle.swift */,
 				F6FED2B52885431500E6EE3B /* ScrumsView.swift */,
 				F6FED2B72886E96C00E6EE3B /* DetailView.swift */,
+				F6FED2B9288AB39900E6EE3B /* DetailEditView.swift */,
 			);
 			path = "iOS-App-Dev-Tutorials";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				F6FED2B02881850900E6EE3B /* DailyScrum.swift in Sources */,
 				F6FED2B82886E96C00E6EE3B /* DetailView.swift in Sources */,
+				F6FED2BA288AB39900E6EE3B /* DetailEditView.swift in Sources */,
 				F61645952880231E0081BF6E /* Theme.swift in Sources */,
 				F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */,
 				F6FED2B62885431500E6EE3B /* ScrumsView.swift in Sources */,
