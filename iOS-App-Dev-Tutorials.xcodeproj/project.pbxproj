@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F61645952880231E0081BF6E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61645942880231E0081BF6E /* Theme.swift */; };
 		F640D682288EE09400E3B792 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D681288EE09400E3B792 /* ThemeView.swift */; };
+		F640D684288EE31F00E3B792 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D683288EE31F00E3B792 /* ThemePicker.swift */; };
 		F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */; };
 		F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E2480287D79EC00C561C2 /* MeetingView.swift */; };
 		F64E2483287D79EE00C561C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64E2482287D79EE00C561C2 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F61645942880231E0081BF6E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F640D681288EE09400E3B792 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		F640D683288EE31F00E3B792 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		F64E247B287D79EC00C561C2 /* iOS-App-Dev-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App-Dev-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_Dev_TutorialsApp.swift; sourceTree = "<group>"; };
 		F64E2480287D79EC00C561C2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				F6FED2B72886E96C00E6EE3B /* DetailView.swift */,
 				F6FED2B9288AB39900E6EE3B /* DetailEditView.swift */,
 				F640D681288EE09400E3B792 /* ThemeView.swift */,
+				F640D683288EE31F00E3B792 /* ThemePicker.swift */,
 			);
 			path = "iOS-App-Dev-Tutorials";
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F640D684288EE31F00E3B792 /* ThemePicker.swift in Sources */,
 				F6FED2B02881850900E6EE3B /* DailyScrum.swift in Sources */,
 				F6FED2B82886E96C00E6EE3B /* DetailView.swift in Sources */,
 				F6FED2BA288AB39900E6EE3B /* DetailEditView.swift in Sources */,
