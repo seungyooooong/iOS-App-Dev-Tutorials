@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct iOS_App_Dev_TutorialsApp: App {
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
 //                MeetingView()
-                ScrumsView(scrums: DailyScrum.sampleData)
+                ScrumsView(scrums: $scrums)
             }
         }
     }
