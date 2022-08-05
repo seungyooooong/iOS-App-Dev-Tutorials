@@ -15,6 +15,7 @@
 		F640D68A289A553A00E3B792 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D689289A553A00E3B792 /* ScrumTimer.swift */; };
 		F640D68C289BADC600E3B792 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D68B289BADC600E3B792 /* MeetingFooterView.swift */; };
 		F640D68E289CF3D800E3B792 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D68D289CF3D800E3B792 /* AVPlayer+Ding.swift */; };
+		F640D697289CF77800E3B792 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = F640D696289CF77800E3B792 /* ding.wav */; };
 		F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */; };
 		F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E2480287D79EC00C561C2 /* MeetingView.swift */; };
 		F64E2483287D79EE00C561C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64E2482287D79EE00C561C2 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		F640D689289A553A00E3B792 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		F640D68B289BADC600E3B792 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		F640D68D289CF3D800E3B792 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		F640D696289CF77800E3B792 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		F64E247B287D79EC00C561C2 /* iOS-App-Dev-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App-Dev-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_Dev_TutorialsApp.swift; sourceTree = "<group>"; };
 		F64E2480287D79EC00C561C2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F640D693289CF6DC00E3B792 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F640D696289CF77800E3B792 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F64E2472287D79EC00C561C2 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		F64E247D287D79EC00C561C2 /* iOS-App-Dev-Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				F640D693289CF6DC00E3B792 /* Resources */,
 				F6164593288022550081BF6E /* Models */,
 				F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */,
 				F64E2480287D79EC00C561C2 /* MeetingView.swift */,
@@ -175,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F640D697289CF77800E3B792 /* ding.wav in Resources */,
 				F64E2486287D79EE00C561C2 /* Preview Assets.xcassets in Resources */,
 				F64E2483287D79EE00C561C2 /* Assets.xcassets in Resources */,
 			);
