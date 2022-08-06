@@ -106,8 +106,6 @@
 				F64E2480287D79EC00C561C2 /* MeetingView.swift */,
 				F640D6852898F2D800E3B792 /* MeetingHeaderView.swift */,
 				F640D68B289BADC600E3B792 /* MeetingFooterView.swift */,
-				F64E2482287D79EE00C561C2 /* Assets.xcassets */,
-				F64E2484287D79EE00C561C2 /* Preview Content */,
 				F6FED2B12881871C00E6EE3B /* CardView.swift */,
 				F6FED2B32882893400E6EE3B /* TarilingIconLabelStyle.swift */,
 				F6FED2B52885431500E6EE3B /* ScrumsView.swift */,
@@ -116,6 +114,8 @@
 				F640D681288EE09400E3B792 /* ThemeView.swift */,
 				F640D683288EE31F00E3B792 /* ThemePicker.swift */,
 				F640D6872898F81700E3B792 /* ScrumProgressViewStyle.swift */,
+				F64E2484287D79EE00C561C2 /* Preview Content */,
+				F64E2482287D79EE00C561C2 /* Assets.xcassets */,
 			);
 			path = "iOS-App-Dev-Tutorials";
 			sourceTree = "<group>";
