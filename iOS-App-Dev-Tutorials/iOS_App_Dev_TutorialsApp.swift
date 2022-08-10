@@ -9,13 +9,22 @@ import SwiftUI
 
 @main
 struct iOS_App_Dev_TutorialsApp: App {
-    @State private var scrums = DailyScrum.sampleData
+    @StateObject private var store = ScrumStore()
     
     var body: some Scene {
         WindowGroup {
             NavigationView {
-//                MeetingView()
-                ScrumsView(scrums: $scrums)
+                ScrumsView(scrums: $store.scrums)
+            }
+            .onAppear {
+                ScrumStore.load { result in
+                    switch result {
+                    case .failure(let error):
+                        fatalError(error.localizedDescription)
+                    case .success(let scrums):
+                        store.scrums = scrums
+                    }
+                }
             }
         }
     }
