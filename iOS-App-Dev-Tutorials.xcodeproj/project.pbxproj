@@ -22,6 +22,7 @@
 		F640D69F28A78AED00E3B792 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D69E28A78AED00E3B792 /* ErrorView.swift */; };
 		F640D6A128AA948900E3B792 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D6A028AA948900E3B792 /* MeetingTimerView.swift */; };
 		F640D6A328AA990E00E3B792 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D6A228AA990E00E3B792 /* SpeakerArc.swift */; };
+		F640D6A528ADF63400E3B792 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640D6A428ADF63400E3B792 /* SpeechRecognizer.swift */; };
 		F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */; };
 		F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E2480287D79EC00C561C2 /* MeetingView.swift */; };
 		F64E2483287D79EE00C561C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64E2482287D79EE00C561C2 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		F640D69E28A78AED00E3B792 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		F640D6A028AA948900E3B792 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		F640D6A228AA990E00E3B792 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		F640D6A428ADF63400E3B792 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		F64E247B287D79EC00C561C2 /* iOS-App-Dev-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App-Dev-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64E247E287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_App_Dev_TutorialsApp.swift; sourceTree = "<group>"; };
 		F64E2480287D79EC00C561C2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				F640D698289F8EDD00E3B792 /* History.swift */,
 				F640D69A28A0D82C00E3B792 /* ScrumStore.swift */,
 				F640D69C28A61A6200E3B792 /* ErrorWrapper.swift */,
+				F640D6A428ADF63400E3B792 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				F64E2481287D79EC00C561C2 /* MeetingView.swift in Sources */,
 				F6FED2B62885431500E6EE3B /* ScrumsView.swift in Sources */,
 				F6FED2B42882893400E6EE3B /* TarilingIconLabelStyle.swift in Sources */,
+				F640D6A528ADF63400E3B792 /* SpeechRecognizer.swift in Sources */,
 				F640D69F28A78AED00E3B792 /* ErrorView.swift in Sources */,
 				F64E247F287D79EC00C561C2 /* iOS_App_Dev_TutorialsApp.swift in Sources */,
 				F640D682288EE09400E3B792 /* ThemeView.swift in Sources */,
@@ -370,6 +374,8 @@
 				DEVELOPMENT_TEAM = R944P2LYKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -400,6 +406,8 @@
 				DEVELOPMENT_TEAM = R944P2LYKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
