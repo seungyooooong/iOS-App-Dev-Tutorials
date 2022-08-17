@@ -2,13 +2,14 @@
 //  MeetingTimerView.swift
 //  iOS-App-Dev-Tutorials
 //
-//  Created by 최승용 on 2022/08/15.
+//  Created by 최승용 on 2022/08/14.
 //
 
 import SwiftUI
 
 struct MeetingTimerView: View {
     let speakers: [ScrumTimer.Speaker]
+    let isRecording: Bool
     let theme: Theme
     
     private var currentSpeaker: String {
@@ -23,6 +24,10 @@ struct MeetingTimerView: View {
                     Text(currentSpeaker)
                         .font(.title)
                     Text("is speaking")
+                    Image(systemName: isRecording ? "mic" : "mic.slash")
+                        .font(.title)
+                        .padding(.top)
+                        .accessibilityLabel(isRecording ? "with transcription" : "without transcription")
                 }
                 .accessibilityElement(children: .combine)
                 .foregroundColor(theme.accentColor)
@@ -46,6 +51,6 @@ struct MeetingTimerView_Preview: PreviewProvider {
     }
     
     static var previews: some View {
-        MeetingTimerView(speakers: speakers, theme: .yellow)
+        MeetingTimerView(speakers: speakers, isRecording: true, theme: .yellow)
     }
 }
