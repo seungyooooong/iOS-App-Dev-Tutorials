@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61E497F28B7554F00D3CEFC /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E497E28B7554F00D3CEFC /* Reminder.swift */; };
 		F655AE8228B12E7600279A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F655AE8128B12E7600279A2C /* AppDelegate.swift */; };
 		F655AE8428B12E7600279A2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F655AE8328B12E7600279A2C /* SceneDelegate.swift */; };
 		F655AE8628B12E7600279A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F655AE8528B12E7600279A2C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F61E497E28B7554F00D3CEFC /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		F655AE7E28B12E7600279A2C /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F655AE8128B12E7600279A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F655AE8328B12E7600279A2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F61E497D28B7552900D3CEFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F61E497E28B7554F00D3CEFC /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F655AE7528B12E7600279A2C = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		F655AE8028B12E7600279A2C /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				F61E497D28B7552900D3CEFC /* Models */,
 				F655AE8128B12E7600279A2C /* AppDelegate.swift */,
 				F655AE8328B12E7600279A2C /* SceneDelegate.swift */,
 				F655AE8528B12E7600279A2C /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				F655AE8628B12E7600279A2C /* ViewController.swift in Sources */,
 				F655AE8228B12E7600279A2C /* AppDelegate.swift in Sources */,
 				F655AE8428B12E7600279A2C /* SceneDelegate.swift in Sources */,
+				F61E497F28B7554F00D3CEFC /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
