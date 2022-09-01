@@ -75,6 +75,7 @@
 		F61E498428BDFDAD00D3CEFC /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F6091D1128C7432500471BA8 /* ReminderDoneButton.swift */,
 				F655AE8528B12E7600279A2C /* ReminderListViewController.swift */,
 				F61E498528BDFF3300D3CEFC /* ReminderListViewController+DataSource.swift */,
 				F6091D1328C7444000471BA8 /* ReminderListViewController+Actions.swift */,
@@ -104,7 +105,6 @@
 				F61E497D28B7552900D3CEFC /* Models */,
 				F655AE8128B12E7600279A2C /* AppDelegate.swift */,
 				F655AE8328B12E7600279A2C /* SceneDelegate.swift */,
-				F6091D1128C7432500471BA8 /* ReminderDoneButton.swift */,
 				F61E498428BDFDAD00D3CEFC /* ListViewController */,
 				F6091D3528C895B600471BA8 /* DetailViewController */,
 				F655AE8728B12E7600279A2C /* Main.storyboard */,
