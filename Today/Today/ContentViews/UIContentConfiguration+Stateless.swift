@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIContentConfiguration {
-    func updated(for state: UIConfigurationState) -> self {
+    func updated(for state: UIConfigurationState) -> Self {
         return self
     }
 }
