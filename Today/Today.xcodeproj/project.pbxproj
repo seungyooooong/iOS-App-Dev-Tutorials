@@ -29,6 +29,7 @@
 		F66FCB9128D4133400C85354 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9028D4133400C85354 /* DatePickerContentView.swift */; };
 		F66FCB9328D841FE00C85354 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */; };
 		F66FCB9528D8674D00C85354 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9428D8674D00C85354 /* ProgressHeaderView.swift */; };
+		F66FCB9728DAC88500C85354 /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */; };
 		F6FDB46F28CED036003E786A /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		F66FCB9028D4133400C85354 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		F66FCB9428D8674D00C85354 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 		F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				F61E498028BDEF0A00D3CEFC /* Date+Today.swift */,
 				F61E498728C1F20F00D3CEFC /* UIColor+Today.swift */,
 				F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */,
+				F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				F66FCB8628D3E95C00C85354 /* ReminderViewController+CellConfiguration.swift in Sources */,
 				F655AE8428B12E7600279A2C /* SceneDelegate.swift in Sources */,
 				F61E497F28B7554F00D3CEFC /* Reminder.swift in Sources */,
+				F66FCB9728DAC88500C85354 /* CAGradientLayer+ListStyle.swift in Sources */,
 				F61E498628BDFF3300D3CEFC /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
