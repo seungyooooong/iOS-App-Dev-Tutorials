@@ -30,6 +30,8 @@
 		F66FCB9328D841FE00C85354 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */; };
 		F66FCB9528D8674D00C85354 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9428D8674D00C85354 /* ProgressHeaderView.swift */; };
 		F66FCB9728DAC88500C85354 /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */; };
+		F66FCB9928DAEBB300C85354 /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9828DAEBB300C85354 /* TodayError.swift */; };
+		F66FCB9B28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */; };
 		F6FDB46F28CED036003E786A /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		F66FCB9428D8674D00C85354 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
+		F66FCB9828DAEBB300C85354 /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
+		F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,8 @@
 				F61E498728C1F20F00D3CEFC /* UIColor+Today.swift */,
 				F66FCB9228D841FE00C85354 /* ReminderListStyle.swift */,
 				F66FCB9628DAC88500C85354 /* CAGradientLayer+ListStyle.swift */,
+				F66FCB9828DAEBB300C85354 /* TodayError.swift */,
+				F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				F66FCB9128D4133400C85354 /* DatePickerContentView.swift in Sources */,
 				F61E498828C1F20F00D3CEFC /* UIColor+Today.swift in Sources */,
 				F6091D1428C7444000471BA8 /* ReminderListViewController+Actions.swift in Sources */,
+				F66FCB9928DAEBB300C85354 /* TodayError.swift in Sources */,
 				F6091D3728C895F300471BA8 /* ReminderViewController.swift in Sources */,
 				F66FCB9328D841FE00C85354 /* ReminderListStyle.swift in Sources */,
 				F66FCB8D28D3FF3100C85354 /* UIContentConfiguration+Stateless.swift in Sources */,
@@ -242,6 +249,7 @@
 				F655AE8228B12E7600279A2C /* AppDelegate.swift in Sources */,
 				F66FCB8628D3E95C00C85354 /* ReminderViewController+CellConfiguration.swift in Sources */,
 				F655AE8428B12E7600279A2C /* SceneDelegate.swift in Sources */,
+				F66FCB9B28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift in Sources */,
 				F61E497F28B7554F00D3CEFC /* Reminder.swift in Sources */,
 				F66FCB9728DAC88500C85354 /* CAGradientLayer+ListStyle.swift in Sources */,
 				F61E498628BDFF3300D3CEFC /* ReminderListViewController+DataSource.swift in Sources */,
