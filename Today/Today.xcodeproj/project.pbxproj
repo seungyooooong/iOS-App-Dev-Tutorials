@@ -33,6 +33,7 @@
 		F66FCB9928DAEBB300C85354 /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9828DAEBB300C85354 /* TodayError.swift */; };
 		F66FCB9B28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */; };
 		F66FCB9D28DAEEC800C85354 /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9C28DAEEC800C85354 /* Reminder+EKReminder.swift */; };
+		F66FCB9F28DD325100C85354 /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCB9E28DD325100C85354 /* ReminderStore.swift */; };
 		F6FDB46F28CED036003E786A /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		F66FCB9828DAEBB300C85354 /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
 		F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		F66FCB9C28DAEEC800C85354 /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
+		F66FCB9E28DD325100C85354 /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
 		F6FDB46E28CED036003E786A /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				F66FCB9828DAEBB300C85354 /* TodayError.swift */,
 				F66FCB9A28DAEC7500C85354 /* EKEventStore+AsyncFetch.swift */,
 				F66FCB9C28DAEEC800C85354 /* Reminder+EKReminder.swift */,
+				F66FCB9E28DD325100C85354 /* ReminderStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				F61E497F28B7554F00D3CEFC /* Reminder.swift in Sources */,
 				F66FCB9728DAC88500C85354 /* CAGradientLayer+ListStyle.swift in Sources */,
 				F61E498628BDFF3300D3CEFC /* ReminderListViewController+DataSource.swift in Sources */,
+				F66FCB9F28DD325100C85354 /* ReminderStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
