@@ -37,6 +37,13 @@ class ReminderStore {
         }
     }
     
+    private func read(with id: Reminder.ID) throws -> EKReminder {
+        guard let ekReminder = ekStore.calendarItem(withIdentifier: id) as? EKReminder else {
+            throw TodayError.failedReadingCalendarItem
+        }
+        return ekReminder
+    }
+    
     func readAll() async throws -> [Reminder] {
         guard isAvailable else {
             throw TodayError.accessDenied
