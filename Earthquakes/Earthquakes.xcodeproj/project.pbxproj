@@ -26,6 +26,8 @@
 		F66FCBB528EC357E00C85354 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCBB328EB0B2000C85354 /* GeoJSON.swift */; };
 		F66FCBB828F049F200C85354 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCBB628F0475000C85354 /* QuakeLocation.swift */; };
 		F66FCBBA28F04C4100C85354 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCBAA28E50EC400C85354 /* EarthquakesTests.swift */; };
+		F66FCBBD28F2645400C85354 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCBBB28F2616100C85354 /* HTTPDataDownloader.swift */; };
+		F66FCBC028F2656C00C85354 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCBBE28F2648F00C85354 /* QuakeClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		F66FCBB128E5116100C85354 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		F66FCBB328EB0B2000C85354 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 		F66FCBB628F0475000C85354 /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
+		F66FCBBB28F2616100C85354 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		F66FCBBE28F2648F00C85354 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 				F66FCBA228E4280F00C85354 /* QuakeError.swift */,
 				F66FCBB328EB0B2000C85354 /* GeoJSON.swift */,
 				F66FCBB628F0475000C85354 /* QuakeLocation.swift */,
+				F66FCBBB28F2616100C85354 /* HTTPDataDownloader.swift */,
+				F66FCBBE28F2648F00C85354 /* QuakeClient.swift */,
 			);
 			name = Models;
 			path = Earthquakes/Models;
@@ -304,7 +310,9 @@
 				AA988DDD27E9030A004EA073 /* DeleteButton.swift in Sources */,
 				F66FCBA328E4280F00C85354 /* QuakeError.swift in Sources */,
 				F66FCBB828F049F200C85354 /* QuakeLocation.swift in Sources */,
+				F66FCBBD28F2645400C85354 /* HTTPDataDownloader.swift in Sources */,
 				AA988DD927E901B0004EA073 /* RefreshButton.swift in Sources */,
+				F66FCBC028F2656C00C85354 /* QuakeClient.swift in Sources */,
 				AD57B10226561FE1005183D0 /* Quakes.swift in Sources */,
 				AD43F1FA26158CD50068AABC /* Quake.swift in Sources */,
 			);
